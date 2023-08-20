@@ -1,4 +1,4 @@
-import './Style.scss';
+import './Style.css';
 import Board from './Components/Board';
 import { useState } from 'react';
 import { calculatewinner } from './Winner';
