@@ -1,7 +1,7 @@
 * {
-  green: #12e177;
-  orange: #ffc72a;
-  blue: #4c43d4;
+ #green : #12e177;
+  #orange : #ffc72a;
+  #blue: #4c43d4;
 }
 
 body {
@@ -45,38 +45,27 @@ button {
     display: inline-block;
     padding: 0;
     margin: 0;
-    li {
-      list-style: none;
-      text-align: left;
-      &:before {
-        content: '';
-        border-radius: 50%;
-        display: inline-block;
-        height: 5px;
-        width: 5px;
-        background-color: $green;
-        margin-right: 4px;
-        margin-bottom: 1px;
-      }
+  }
+}
 
-      .btn-move {
-        color: #fff;
-        &.active {
-          font-weight: bold;
-          color: green;
-        }
-      }
+
+  .btn-move {
+    color: #fff;
+    &.active {
+      font-weight: bold;
+      color: green;
     }
   }
 }
 
 .status-message {
   margin-bottom: 40px;
+  margin: 40px;
   font-size: 20px;
   font-weight: lighter;
-  span {
-    font-weight: normal;
-  }
+}
+span {
+  font-weight: normal;
 }
 
 .btn-reset {
@@ -95,6 +84,7 @@ button {
 }
 
 .board {
+  margin: 30px;
   .board-row {
     display: flex;
     flex-direction: row;
