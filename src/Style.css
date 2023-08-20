@@ -1,7 +1,7 @@
 * {
- #green : #12e177;
-  #orange : #ffc72a;
-  #blue : #4c43d4;
+  #green: #12e177;
+  #orange: #ffc72a;
+  #blue: #4c43d4;
 }
 
 body {
@@ -46,8 +46,6 @@ button {
     padding: 0;
     margin: 0;
   }
-}
-
 
   .btn-move {
     color: #fff;
